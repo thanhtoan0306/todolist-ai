@@ -1,4 +1,4 @@
-# Todo List AI - Ứng dụng Quản lý Công việc Thông minh
+![image](https://github.com/user-attachments/assets/4fdc5775-ccd7-450f-a7f2-881a982ffb61)# Todo List AI - Ứng dụng Quản lý Công việc Thông minh
 
 Ứng dụng Todo List với trợ lý AI tích hợp, giúp quản lý công việc một cách thông minh và hiệu quả.
 
@@ -58,6 +58,9 @@ hoàn thành: 2
 
 - Vue.js 3
 - Google Gemini AI
+
+  ![image](https://github.com/user-attachments/assets/35028254-2c35-4b74-baf3-9e2f7a1517da)
+
 - Material Icons
 - Vite
 
