@@ -1,29 +1,66 @@
-# todo-vue-ai
+# Todo List AI - Ứng dụng Quản lý Công việc Thông minh
 
-This template should help get you started developing with Vue 3 in Vite.
+Ứng dụng Todo List với trợ lý AI tích hợp, giúp quản lý công việc một cách thông minh và hiệu quả.
 
-## Recommended IDE Setup
+![Demo Todo List AI](https://raw.githubusercontent.com/thanhtoan0306/todolist-ai/main/screenshots/demo.png)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Tính năng chính
 
-## Customize configuration
+- ✨ Giao diện giống Google Keep
+- 🤖 Trợ lý AI thông minh tích hợp
+- 💬 Chat bằng tiếng Việt tự nhiên
+- ✅ Thêm, sửa, xóa công việc
+- 🔍 Tìm kiếm và lọc công việc
+- ✔️ Đánh dấu hoàn thành
+- 📱 Giao diện responsive
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Cài đặt
 
-## Project Setup
+1. Clone repository:
+```bash
+git clone https://github.com/thanhtoan0306/todolist-ai.git
+cd todolist-ai
+```
 
-```sh
+2. Cài đặt dependencies:
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+3. Cấu hình API key:
+- Đăng ký Google AI Studio tại https://makersuite.google.com/app/apikey
+- Thay thế `YOUR_API_KEY` trong file `src/services/gemini.js`
 
-```sh
+4. Chạy ứng dụng:
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+## Cách sử dụng Trợ lý AI
 
-```sh
-npm run build
+### Sử dụng lệnh trực tiếp:
 ```
+thêm: Học Vue.js lúc 7h tối
+sửa: 1 -> Học Vue.js lúc 8h tối
+xóa: 1
+hoàn thành: 2
+```
+
+### Sử dụng ngôn ngữ tự nhiên:
+- "Thêm công việc học Vue.js vào lúc 7h tối"
+- "Sửa công việc số 1 thành học lúc 8h tối"
+- "Xóa công việc số 1"
+- "Đánh dấu công việc 2 đã hoàn thành"
+- "Tìm các công việc có từ học"
+- "Lọc các việc đã hoàn thành"
+
+## Công nghệ sử dụng
+
+- Vue.js 3
+- Google Gemini AI
+- Material Icons
+- Vite
+
+## Đóng góp
+
+Mọi đóng góp đều được chào đón! Vui lòng tạo issue hoặc pull request.
